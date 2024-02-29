@@ -1,8 +1,10 @@
-#ifndef BINARY_TREES_H
-#define BINARY_TREES_H
+#ifndef _BINARY_TREES_H_
+#define _BINARY_TREES_H_
 
-#include stdio.h
-#include stdlib.h
+#include <stdio.h>
+#include <stdlib.h>
+#include <stddef.h>
+#include <string.h>
 
 
 /**
@@ -42,6 +44,7 @@ int binary_tree_is_full(const binary_tree_t *tree);
 int binary_tree_is_perfect(const binary_tree_t *tree);
 binary_tree_t *binary_tree_sibling(binary_tree_t *node);
 binary_tree_t *binary_tree_uncle(binary_tree_t *node);
+void binary_tree_print(const binary_tree_t *);
 
 
 
