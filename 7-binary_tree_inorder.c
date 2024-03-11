@@ -2,7 +2,7 @@
 /**
  * binary_tree_inorder - traverses the binary tree inorder
  * @tree: pointer to root.
- * @(*func)(int): function to call with int argument.
+ * @func: function to call with int argument.
  * Return: void
 */
 void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int))

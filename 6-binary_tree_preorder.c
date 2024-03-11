@@ -2,7 +2,7 @@
 /**
  * binary_tree_preorder - traverses the tree in preorder mode
  * @tree: pointer to the root to traverse
- * @(func)(int): function pointer that points to a function and takes a value.
+ * @func: function pointer that points to a function and takes a value.
  * Return: void
 */
 void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int))

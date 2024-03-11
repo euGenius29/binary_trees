@@ -8,7 +8,8 @@
  * Return: The lowest common ancestor (LCA) node of the two given nodes. NULL
  * is returned when an ancestor is not found.
  */
-binary_tree_t *binary_trees_ancestor(const binary_tree_t *first, const binary_tree_t *second)
+binary_tree_t *binary_trees_ancestor(const binary_tree_t *first,
+				const binary_tree_t *second)
 {
 	const binary_tree_t *temp;
 	binary_tree_t *first_ancestor, *second_ancestor;
